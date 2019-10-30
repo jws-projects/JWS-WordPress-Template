@@ -1,0 +1,25 @@
+{
+  "extends": ["standard", "prettier", "plugin:prettier/recommended"],
+  "env": {
+    "browser": true
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": true,
+        "tabWidth": 2
+      }
+    ],
+    "yoda": 0,
+    "no-unused-vars": 0,
+    "import/no-webpack-loader-syntax": 0,
+    "no-undef": 0,
+    "no-path-concat": 0
+  },
+  "globals": {
+    "$": false
+  }
+}

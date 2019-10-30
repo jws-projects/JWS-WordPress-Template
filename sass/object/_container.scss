@@ -1,0 +1,10 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  @include tab {
+    width: 100%;
+    padding: 0 15px;
+    overflow: hidden;
+  }
+}

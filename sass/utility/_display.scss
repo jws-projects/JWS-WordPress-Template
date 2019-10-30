@@ -1,0 +1,103 @@
+// block
+.u-db {
+  display: block;
+}
+.u-db-pc {
+  display: block;
+  @include tab {
+    display: none;
+  }
+}
+.u-db-sp {
+  display: none;
+  @include tab {
+    display: block;
+  }
+}
+
+// inline-block
+.u-dib {
+  display: inline-block;
+}
+.u-dib-pc {
+  display: inline-block;
+  @include tab {
+    display: none;
+  }
+}
+.u-dib-sp {
+  display: none;
+  @include tab {
+    display: inline-block;
+  }
+}
+.u-db-di {
+  display: block;
+  @include tab {
+    display: inline;
+  }
+}
+.u-dib-di {
+  display: inline;
+  @include tab {
+    display: inline;
+  }
+}
+.u-dib-db {
+  display: inline-block;
+  @include tab {
+    display: block;
+  }
+}
+
+
+// inline
+.u-di {
+  display: inline;
+}
+.u-di-pc {
+  display: inline;
+  @include tab {
+    display: none;
+  }
+}
+.u-di-sp {
+  display: none;
+  @include tab {
+    display: inline;
+  }
+}
+
+// flex
+.u-df {
+  display: flex;
+}
+.u-df-pc {
+  display: flex;
+  @include tab {
+    display: none;
+  }
+}
+.u-df-sp {
+  display: none;
+  @include tab {
+    display: flex;
+  }
+}
+
+// flex
+.u-dif {
+  display: inline-flex;
+}
+.u-dif-pc {
+  display: inline-flex;
+  @include tab {
+    display: none;
+  }
+}
+.u-dif-sp {
+  display: none;
+  @include tab {
+    display: inline-flex;
+  }
+}

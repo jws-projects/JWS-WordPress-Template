@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.75px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+.preload {
+  display: none;
+}
+i,
+em,
+strong {
+  font-style: normal;
+}
+// ::selection {
+// background: #e60012;
+// color: #fff;
+// }
